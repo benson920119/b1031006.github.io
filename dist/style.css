@@ -1,0 +1,72 @@
+body{background-color:#00FFFF}
+<style>
+
+      /* 全域樣式 */
+      body {
+        margin: 100px;
+        padding:100px;
+        font-family: Arial, sans-serif;
+        font-size: 40px;
+      }
+      /* 表頭樣式 */
+      #header {
+        height: 150px;
+        background-color: #02F78E;
+        color: #fff;
+        text-align: center;
+        padding: 5px;
+      }
+      /* 左欄樣式 */
+      #sidebar-left {
+        width:20%;
+        float: left;
+        background-color: #FF9D6F;
+        height: 850px;
+        padding: 20px;
+        font-size: 25px;
+      }
+      /* 右欄樣式 */
+      #sidebar-right {
+        width: 17%;
+        float: right;
+        background-color: #B766AD;
+        height: 850px;
+        padding: 20px;
+        font-size: 25px;
+      }
+      /* 主欄樣式 */
+      #content {
+        width: 55%;
+        float: left;
+        background-color: #FFFF93;
+        height: 850px;
+        padding: 20px;
+        font-size: 25px;
+      }
+      /* 註腳欄樣式 */
+      #footer {
+        height: 90px;
+        background-color: #FFCF78	;
+        color:#8A008A	;
+        text-align: center;
+        padding: 30px;
+        clear: both;
+      }
+      /* 新增網頁樣式 */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        line-height: 200px;
+        margin: 10px;
+      }
+    </style>
